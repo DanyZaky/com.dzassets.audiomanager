@@ -1,15 +1,18 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "AudioData", menuName = "Audio/AudioData", order = 1)]
-public class AudioData : ScriptableObject
+namespace DZAssets.AudioManager
 {
-    [System.Serializable]
-    public class AudioEntry
+    [CreateAssetMenu(fileName = "AudioData", menuName = "DZAssets/AudioData", order = 1)]
+    public class AudioData : ScriptableObject
     {
-        public string nameAudio;
-        public AudioClip audioClip;
-    }
+        [System.Serializable]
+        public class AudioEntry
+        {
+            public string nameAudio;
+            public AudioClip audioClip;
+        }
 
-    public List<AudioEntry> audioList = new List<AudioEntry>();
+        public List<AudioEntry> audioList = new List<AudioEntry>();
+    }
 }
