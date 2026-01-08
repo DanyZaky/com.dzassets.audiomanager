@@ -1,0 +1,10 @@
+{
+  "name": "com.dzassets.audiomanager",
+  "displayName": "DZ Assets - Audio Manager",
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "description": "Reusable audio manager system",
+  "author": {
+    "name": "Dany Zaky"
+  }
+}

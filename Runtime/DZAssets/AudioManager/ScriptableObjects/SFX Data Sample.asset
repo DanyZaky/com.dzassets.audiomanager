@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a41af8c48d4fd438bc0550b46bd30a, type: 3}
+  m_Name: SFX Data Sample
+  m_EditorClassIdentifier: 
+  audioList:
+  - nameAudio: button
+    audioClip: {fileID: 8300000, guid: 9150a3a72c4702c48ac2642d33dd5276, type: 3}
+  - nameAudio: coin
+    audioClip: {fileID: 8300000, guid: bb71697ab45a91f4ba7dd22ff185bd01, type: 3}
+  - nameAudio: wrong
+    audioClip: {fileID: 8300000, guid: 4a165a56ad49ed742bc111d13f960d17, type: 3}
+  - nameAudio: gameover
+    audioClip: {fileID: 8300000, guid: f5b5ea56c5c208642a154e31c1131cac, type: 3}
+  - nameAudio: intro
+    audioClip: {fileID: 8300000, guid: 7f1397cb7f886c443b9bdd6ffb7776bc, type: 3}
+  - nameAudio: correct
+    audioClip: {fileID: 8300000, guid: 1433640f84942274bb94fcf3f2176639, type: 3}
+  - nameAudio: shuffle
+    audioClip: {fileID: 8300000, guid: 4b85a091bf01c964bb57b66e7f815dd4, type: 3}
+  - nameAudio: smash
+    audioClip: {fileID: 8300000, guid: 7cc1775d4dddb1f4f86db0d6aac7ce2c, type: 3}
+  - nameAudio: swoosh
+    audioClip: {fileID: 8300000, guid: f56de8cd7c4cf304b9974cc98ff20048, type: 3}
+  - nameAudio: spin
+    audioClip: {fileID: 8300000, guid: 117a51b8711274d48bcecfb80b5acf29, type: 3}
+  - nameAudio: punch
+    audioClip: {fileID: 8300000, guid: 15fff44e5bed9cd4ab8464d315de0bea, type: 3}
