@@ -1,0 +1,18 @@
+{
+    "name": "DZAssets.AudioManager.Editor",
+    "rootNamespace": "DZAssets.AudioManager.Editor",
+    "references": [
+        "DZAssets.AudioManager"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
